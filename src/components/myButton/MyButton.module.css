@@ -1,0 +1,52 @@
+.myButton {
+  margin: 3px;
+}
+
+.primary {
+  background-color: rgb(116, 44, 145);
+}
+
+.primary:hover {
+  background-color: rgb(162, 66, 200);
+}
+
+.danger {
+  background-color: rgb(221, 111, 1);
+}
+
+.danger:hover {
+  background-color: rgb(224, 138, 53);
+}
+
+.success {
+  background-color: rgb(86, 138, 8);
+}
+
+.success:hover {
+  background-color: rgb(120, 183, 27);
+}
+
+.disabled {
+  background-color: rgb(196, 196, 196);
+  color: rgb(106, 106, 106);
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  background-color: rgb(196, 196, 196);
+  color: rgb(106, 106, 106);
+}
+
+.sm {
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.md {
+  font-size: 20px;
+}
+
+.lg {
+  font-size: 30px;
+}

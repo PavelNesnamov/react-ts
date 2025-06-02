@@ -1,0 +1,26 @@
+.heading {
+    color: orange;
+}
+
+.info {
+    font-style: italic;
+}
+
+.ul {
+    list-style: none;
+}
+
+ul > li::before {
+    content: '⚡';
+}
+.sm {
+    font-size: 10;
+}
+
+.md {
+     font-size: 20;
+}
+
+.lg {
+     font-size: 300;
+}

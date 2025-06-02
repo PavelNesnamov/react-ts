@@ -1,0 +1,13 @@
+.authFormContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.authFormContainer input {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.errorMessage {
+    color: rgb(211, 61, 19);
+}
